@@ -14,7 +14,7 @@ export type AnswerObject = {
   correctAnswer: string;
 };
 
-const TOTAL_QUESTIONS = 10;
+const TOTAL_QUESTIONS = 20;
 
 const App: React.FC = () => {
   const [loading, setLoading] = useState(false);

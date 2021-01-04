@@ -7,8 +7,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   body {
     background-image: url(${meomeo});
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-fit: cover
     margin: 0;
     padding: 0 20px;
     display: flex;
